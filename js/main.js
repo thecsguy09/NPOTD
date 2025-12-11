@@ -43,7 +43,7 @@ function getImage(date = dateInput.value) {
 
     let urlParams = new URLSearchParams({
         "date" : date,
-       "api_key": "DEMO_KEY"
+       "api_key": "demo_key"
     })
 
     // using fetch api to make api calls
